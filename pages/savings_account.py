@@ -1,6 +1,6 @@
 
 import streamlit as st
-from savings_account import SavingsAccount
+from savings import SavingsAccount
 st.set_page_config(page_title='Savings Account', layout='centered')
 
 savings = SavingsAccount(200000)
